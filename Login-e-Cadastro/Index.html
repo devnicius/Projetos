@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link href="css/Home.css" rel="stylesheet">
+            <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+            <title>Login</title>
+        </head>
+            <body>
+                <!-- Imagem do formulário -->
+                <div class="form-group d-flex justify-content-center">
+                    <img src="img/login.png" alt="Imagem do login" class="img-responsive">
+                </div>
+                <!-- Form para login -->
+                <div class="container">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 offset-md-3">
+                                <label for="inputEmail">Insira o seu E-mail:</label>
+                                <input type="email" class="form-group form-control" id="inputEmail" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 offset-md-3">
+                                <label for="inputPassword">Insira a sua senha:</label>
+                                <input type="password" class="form-group form-control" id="inputPassword" placeholder="password">
+                            </div>
+                        </div>
+                    </form>
+                <div class="form-row">
+                    <div class="form-group col-md-6 offset-md-3">
+                    <div class="form-group d-flex justify-content-between">
+                            <input type="button" class="btn btn-second" id="inputEntrar" value="Enter" onclick="Entrar()"> 
+                            <input type="button" class="btn btn-second" id="inputCadastrar" value="Cadastrar" onclick="Cadastro()">
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <script src="script/Script.js"></script>
+            </body>
+    </html>
