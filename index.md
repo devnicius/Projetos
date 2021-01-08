@@ -9,4 +9,4 @@ layout: post
 
 
 
-- [Link do projeto "x"]().
+- [Link do projeto "x"].
