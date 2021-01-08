@@ -9,4 +9,4 @@ layout: post
 
 
 
-- [Link do projeto "x"](./Main-page/).
+- [Link do projeto "x"](./).
