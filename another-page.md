@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Welcome to another page
+## Bem-vindo à página de certificados
 
-_yay_
+_UwU_
 
-[back](./)
+[Voltar](./)
