@@ -9,4 +9,4 @@ layout: post
 
 
 
-- [Link do projeto "x"](./docs/editor_de_texto).
+- [Link do projeto "Editor de texto"](./docs/editor_de_texto).
