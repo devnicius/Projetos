@@ -7,11 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <title>Editor de texto</title>
 </head>
-<body style="background-color: rgb(167, 157, 157);">
+<body style="background-color: rgb(182, 212, 210);">
 <div class="container">
   <div id="tabEditor">
-    <a href="https://devnicius.github.io/Projetos/">Voltar</a>
-
+    <a href="https://devnicius.github.io/Projetos/">
+    <button class="btn" type="button" onmouseover="showDetail('back_arrow')" onmouseout="hideDetail('back_arrow')">
+    <img src="icons/back_arrow.svg" id="classIcon">
+    <div class="divDetail" id="back_arrow"><p>Voltar</p></div>
+  </button></a>
     <button class="btn" type="button" onmouseover="showDetail('left_align')" onmouseout="hideDetail('left_align')">
         <img src="icons/left_align.svg" id="classIcon">
         <div class="divDetail" id="left_align"><p>Alinhar à esquerda</p></div>
@@ -43,7 +46,7 @@
       <div class="divDetail" id="type-underline"><p>Underline/Sublinhado</p></div>
     </button>
 
-    <select class="form-group" aria-label="Fontes">
+    <select class="form-group" aria-label="Fontes" id="classSelect">
       <option disabled value>Fonte</option>
       <option selected value="1">Arial</option>
       <option value="2">Calibri</option>
@@ -51,7 +54,7 @@
     </select>
     
 
-    <select class="form-group" aria-label="Tamanhos">
+    <select class="form-group" aria-label="Tamanhos" id="classSelect">
       <option disabled value>Tamanho</option>
       <option selected value="1">8</option>
       <option value="2">10</option>
@@ -71,7 +74,7 @@
     <textarea class="form-control" placeholder="Leave a comment here" name="textInsert" id="textArea" cols="30" rows="10"></textarea>
     <label for="textArea" id="">Escreva aqui</label>
   </div>
-  <p style="display: flex; justify-content: center">@devnivius</p>
+  <p style="display: flex; justify-content: center">@devnícius</p>
 </div>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
