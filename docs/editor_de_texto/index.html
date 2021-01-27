@@ -8,8 +8,8 @@
     <title>Editor de texto</title>
 </head>
 <body style="background-color: rgb(182, 212, 210);">
-<div class="container">
-  <div id="tabEditor">
+
+  <div id="tabEditor" class="col-sm-12 d-flex justify-content-center">
     <a href="https://devnicius.github.io/Projetos/">
     <button class="btn" type="button" onmouseover="showDetail('back_arrow')" onmouseout="hideDetail('back_arrow')">
     <img src="icons/back_arrow.svg" id="classIcon">
@@ -70,9 +70,10 @@
       <option value="13">36</option>
     </select>
   </div>
-  <div class="form-floating">
-    <textarea class="form-control" placeholder="Leave a comment here" name="textInsert" id="textArea" cols="30" rows="10"></textarea>
-    <label for="textArea" id="">Escreva aqui</label>
+  <div class="container">
+  <div class="form-floating"  id="textArea">
+    <textarea class="form-control" placeholder="Leave a comment here" name="textInsert" cols="30" rows="10" id="floating"></textarea>
+    <label for="floating" id="">Escreva aqui</label>
   </div>
   <p style="display: flex; justify-content: center">@devnícius</p>
 </div>
