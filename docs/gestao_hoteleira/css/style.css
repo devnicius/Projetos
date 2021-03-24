@@ -1,0 +1,15 @@
+﻿#header {
+    position: absolute;
+    width: 100%;
+    height: 125px;
+    
+    background: #050F42;
+    border: 1px solid #0026A4;
+    display: flex;
+
+}
+
+h1 {
+    color: #FDCD00;
+
+}
