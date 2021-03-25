@@ -4,6 +4,6 @@ layout: default
 
 ## Bem-vindo à página de certificados
 
-_UwU_
+_Em construção!_
 
 [Voltar](./)
