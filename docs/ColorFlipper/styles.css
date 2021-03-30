@@ -1,0 +1,12 @@
+﻿h4 {
+    margin: 1em;
+}
+
+#modal {
+    background-color: black;
+    color: white;
+
+    border-radius: 1em;
+    margin: 1em;
+
+}
