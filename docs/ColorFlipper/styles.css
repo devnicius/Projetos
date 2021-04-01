@@ -1,4 +1,8 @@
-﻿h4 {
+﻿body {
+    overflow: hidden;
+}
+
+h4 {
     margin: 1em;
 }
 

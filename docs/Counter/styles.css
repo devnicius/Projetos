@@ -1,10 +1,11 @@
-﻿
+﻿body {
+    overflow: hidden;
+}
 
 p {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 
 
 @import url('http://getbootstrap.com/dist/css/bootstrap.css');
@@ -30,5 +31,4 @@ span {
         margin-bottom: -0.3em;
         margin-top: -0.8em;
     }
-
-  }
+}
