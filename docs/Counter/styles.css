@@ -31,4 +31,8 @@ span {
         margin-bottom: -0.3em;
         margin-top: -0.8em;
     }
+
+    body {
+        overflow: scroll;
+    }
 }

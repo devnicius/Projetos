@@ -1,6 +1,4 @@
-﻿body {
-    overflow: hidden;
-}
+﻿
 
 h4 {
     margin: 1em;
@@ -25,4 +23,11 @@ h4 {
 .vertical-center-row {
     display: table-cell;
     vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        overflow: hidden;
+    }
 }
