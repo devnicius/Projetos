@@ -83,7 +83,7 @@ span {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     #div-main {
         padding-right: 1em;
     }
@@ -98,8 +98,10 @@ span {
         padding: 2em;
         margin-top: 3em;
     }
+
     #intro{
-        font-size: medium;
-        margin-top: 1.3em;
+        margin-left: 0.5em;
+        font-size: large;
+        margin-top: 1em;
     }
 }
