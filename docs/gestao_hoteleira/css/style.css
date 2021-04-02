@@ -33,6 +33,7 @@ h1 {
     border-style: ridge;
     border-color: grey;
     border-radius: 15px;
+    width: 25em;
 }
 
 .form-control {
