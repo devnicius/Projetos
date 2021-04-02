@@ -46,13 +46,15 @@ h1 {
     background-color: aqua;
 }
 
-@media only screen and (max-width: 800px) and (min-width: 500px){
-    #div-login {
-        width: 20em;
-    }
-}
-@media only screen and (max-width: 499px) and (min-width: 1px){
+@media only screen and (min-width: 1px) and (max-width: 500px){
     #div-login {
         width: 13em;
+    }
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #div-login {
+        width: 23em;
     }
 }
