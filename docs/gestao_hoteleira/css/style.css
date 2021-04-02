@@ -90,7 +90,7 @@ span {
 
 }
 
-@media only screen and (max-width: 910px) {
+@media only screen and (max-width: 999px) {
     #div-main {
         margin-top: -1em;
         padding-right: 1em;
