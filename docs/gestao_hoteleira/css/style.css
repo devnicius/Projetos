@@ -49,6 +49,7 @@ h1 {
 @media only screen and (min-width: 1px) and (max-width: 500px){
     #div-login {
         width: 13em;
+        margin-left: 1em;
     }
 }
 
