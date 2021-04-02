@@ -25,25 +25,33 @@
     </div>
   </div>
 </div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="d-flex col-4 align-self-center" id="div-main">
-        <h1>Hotel &nbsp</h1>
-        <h1 style="color: #FDCD00;">X</h1>
+    <div class="container h-100 row">
+      <div class="col-lg-4 align-self-end d-flex justify-content-center">
+        <div class="d-flex col-6" id="div-main">
+        <h1 id="h1">Hotel &nbsp</h1>
+        <h1 id="h1" style="color: #FDCD00;">X</h1>
       </div>
-      <div class="row col-6 align-self-center d-flex justify-content-center" id="div-login">
-        <div class="row col-10 d-flex justify-content-center ">
+      <div class="col-lg-2 offset-sm-2">
+        <svg height="200" width="100" style=" margin-top: -2em; position: static;">
+          <line x1="1" y1="150" x2="1" y2="5" style="stroke:black;stroke-width:2" />
+          Sorry, your browser does not support inline SVG.
+        </svg>
+      </div>
+    </div>
+
+    <div class="col-md-6 offset-md-5">
+      <div class="row col-lg-8 align-self-end d-flex justify-content-center" id="div-login">
+        <div class="row col-6 d-flex justify-content-center ">
         <h3 class="text-center">Login</h3>
         <input class="form-control" id="input" type="text" placeholder="Nome de usuário">
         <input class="form-control" id="input" type="password" placeholder="Senha">
-        <div class="col-4">
+        <div class="col-lg-6">
           <button class="form-control" id="button">Entrar</button>
         </div>
       </div>
-
+      
       </div>
-      </div>
-      </div>
+    </div>
     </div>
     <!--Link dos componentes JS para o Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>

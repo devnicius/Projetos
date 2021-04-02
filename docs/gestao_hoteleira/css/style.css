@@ -1,4 +1,8 @@
-﻿#header {
+﻿body {
+    margin: 0px;
+}
+
+#header {
     background: #050F42;
 }
 
@@ -20,8 +24,10 @@ span {
 }
 
 
-h1 {
-    font-size: 100px;
+
+
+#h1 {
+    font-size: 62px;
 }
 
 #div-main {
@@ -30,33 +36,24 @@ h1 {
 
 #div-login {
     background-color: white;
-    border-style: ridge;
+    border-style: outset;
     border-color: grey;
     border-radius: 15px;
-    width: 25em;
 }
 
 #input {
     margin-top: 2em;
     margin-bottom: 1em;
     text-align: center;
+    border-radius: 20px;
 }
 
-.btn {
+#button {
     background-color: aqua;
 }
 
-@media only screen and (min-width: 1px) and (max-width: 500px){
-    #div-login {
-        width: 13em;
-        margin-left: 1em;
-    }
-
-}
-
-
-@media only screen and (min-width: 501px) and (max-width: 800px) {
-    #div-login {
-        width: 23em;
+@media only screen and (max-width: 800px) {
+    svg {
+        opacity: 0;
     }
 }
