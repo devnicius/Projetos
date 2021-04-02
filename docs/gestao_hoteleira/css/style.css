@@ -58,6 +58,7 @@ span {
     background-color: white;
 }
 
+
 #div-login {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -81,9 +82,9 @@ span {
 
 }
 
-@media only screen and (max-width: 800px) {
-    svg {
- 
+@media only screen and (max-width: 700px) {
+    #div-main {
+        padding-right: 1em;
     }
     #button {
         width: 50%;
@@ -91,5 +92,8 @@ span {
     }
     #input {
         width: 75%;
+    }
+    #intro{
+        font-size: medium;
     }
 }
