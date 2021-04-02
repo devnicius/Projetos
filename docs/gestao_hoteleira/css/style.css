@@ -1,7 +1,9 @@
 ﻿body {
     margin: 0px;
     height: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -58,6 +60,11 @@ span {
 #div-main {
     background-color: white;
 }
+#intro{
+    margin-left: -0.5em;
+    font-size: 24px;
+    margin-top: 1em;
+}
 
 
 #div-login {
@@ -83,9 +90,17 @@ span {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     #div-main {
+        margin-top: -1em;
         padding-right: 1em;
+    }
+    #div-login {
+        margin-top: -1.5em;
+    }
+    #div-intro {
+        margin-top: -1em;
+        padding-left: 1em;
     }
     #button {
         width: 50%;
