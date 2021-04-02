@@ -27,6 +27,7 @@
     background: #050F42;
 }
 
+
 @import url('http://getbootstrap.com/dist/css/bootstrap.css');
  html, body, .container-table {
     height: 100%;
@@ -82,7 +83,7 @@ span {
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     #div-main {
         padding-right: 1em;
     }
@@ -93,7 +94,12 @@ span {
     #input {
         width: 75%;
     }
+    #padding-div-main {
+        padding: 2em;
+        margin-top: 3em;
+    }
     #intro{
         font-size: medium;
+        margin-top: 1.3em;
     }
 }
