@@ -36,7 +36,7 @@ h1 {
     width: 25em;
 }
 
-.form-control {
+#input {
     margin-top: 2em;
     margin-bottom: 1em;
     text-align: center;
@@ -51,6 +51,7 @@ h1 {
         width: 13em;
         margin-left: 1em;
     }
+
 }
 
 
