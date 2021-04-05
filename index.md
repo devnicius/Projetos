@@ -8,10 +8,10 @@ layout: post
 
 
 
+- [Projetos - básicos](./b.html).
 
-- [Link do projeto "Editor de texto"](./docs/editor_de_texto).
+- [Projetos - avançados](./a.html).
 
-- [Link do projeto "Gerador de cores"](./docs/ColorFlipper/index.html).
-- [Link do projeto "Contador"](./docs/Counter/index.html).
+- [Protótipos](./p.html).
 
-- [Link do projeto "Sistema de gestão hoteleira - PIM 3° Sem. Unip"](./docs/gestao_hoteleira).
+
