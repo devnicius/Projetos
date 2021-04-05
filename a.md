@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Bem-vindo à página de certificados
+## Bem-vindo à página de projetos avançados!
 
 
 [Voltar](./)
