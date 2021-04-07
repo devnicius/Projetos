@@ -6,12 +6,12 @@ layout: post
 - [Certificados](./another-page.html).
 
 
+- [Link do projeto "Gerador de cores"](./docs/ColorFlipper/index.html).
 
+- [Link do projeto "Contador"](./docs/Counter/index.html).
 
-- [Projetos - básicos](./b.html).
+- [Link do projeto "Perfis" (em andamento)](./docs/Reviews/index.html).
 
-- [Projetos - avançados](./a.html).
-
-- [Protótipos](./p.html).
+- [Link do projeto "Sistema de gestão hoteleira - PIM 3° Sem. Unip"](./docs/gestao_hoteleira).
 
 
