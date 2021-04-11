@@ -64,15 +64,13 @@ svg {
     background-color: white;
 }
 #intro{
-    margin-left: -0.5em;
     font-size: 24px;
-    margin-top: 1em;
+
 }
 
 
 #div-login {
     padding-top: 1em;
-    padding-bottom: 1em;
     background-color: white;
     border-style: outset;
     border-color: grey;
@@ -93,18 +91,17 @@ svg {
 
 }
 
-@media only screen and (max-width: 999px) {
-    #div-main {
-        margin-top: -2em;
-        padding-right: 1em;
-    }
+@media only screen and (max-width: 700px) {
+
     #div-login {
         margin-top: -2em;
         margin-bottom: 2em;
     }
     #div-intro {
         margin-top: -1.5em;
-        padding-left: 1em;
+    }
+    #intro {
+        font-size: 24px;
     }
     #button {
         width: 50%;
@@ -118,11 +115,6 @@ svg {
         margin-top: 3em;
     }
 
-    #intro{
-        margin-left: 0.5em;
-        font-size: large;
-        margin-top: 1em;
-    }
 
     svg {
         margin-top: -3em;
