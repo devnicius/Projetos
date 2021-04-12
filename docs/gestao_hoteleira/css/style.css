@@ -90,12 +90,20 @@ svg {
     color: #FDCD00;
 
 }
+.hr {
+    width: 10em;
+}
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 770px) {
+
+    #div-main {
+        margin-bottom: -1em;
+    }
 
     #div-login {
         margin-top: -2em;
         margin-bottom: 2em;
+        margin-left: -0.7em;
     }
     #div-intro {
         margin-top: -1.5em;
@@ -113,6 +121,10 @@ svg {
     #padding-div-main {
         padding: 2em;
         margin-top: 3em;
+    }
+    .hr {
+        width: 20em;
+        margin-top: -0.5em;
     }
 
 
