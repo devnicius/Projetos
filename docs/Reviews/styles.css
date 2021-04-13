@@ -1,6 +1,7 @@
 ﻿body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
+
 
 p {
     font-size: 12px;
@@ -23,15 +24,14 @@ p {
     padding-right: 1.5em;
 }
 
-.btn.randon {
+.btn.random {
     background-color: #f7ffff;
     color: #6dd1d1;
-    border-style: solid;
-    border-color: #6dd1d1;
+
     border-radius: 10px;
     margin-bottom: 1em;
 }
-.btn.randon:hover {
+.btn.random:hover {
     background-color: #6dd1d1;
     color: white;
 }
@@ -53,17 +53,7 @@ span {
     margin-top: 0.1em;
 }
 
-@media only screen and (max-width: 600px) {
-    
-    span {
-        margin-bottom: -0.3em;
-        margin-top: -0.8em;
-    }
 
-    body {
-        overflow: scroll;
-    }
-}
 
 .hr {
     height:3px;border-width:0;color:gray;background-color:gray"
@@ -79,6 +69,15 @@ span {
 
 img {
     padding: 0.5em;
-    width: 8em;
+    width: 7em;
     opacity: 1;
+}
+
+@media only screen and (max-width: 700px) {
+    img {
+        width: 6em;
+    }
+    #h3 {
+        opacity: 0;
+    }
 }
