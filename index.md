@@ -12,6 +12,8 @@ layout: post
 
 - [Link do projeto "Perfis" (em andamento)](./docs/Reviews/index.html).
 
+- [Link do projeto "Responsividade"](./docs/responsividade/index.html).
+
 - [Link do projeto "Sistema de gestão hoteleira - PIM 3° Sem. Unip"](./docs/gestao_hoteleira).
 
 
