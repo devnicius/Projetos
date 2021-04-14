@@ -1,10 +1,13 @@
+var date = new Date();
+//var dateFormat = ((data.getDate() )) + "/" + ((data.getMonth() + 1)) + "/" + data.getFullYear(); 
+
 //define data
 var tabledata = [
-    {id:1, name:"Oli Bob", progress:12, gender:"male", rating:1, col:"red" },
-    {id:2, name:"Mary May", progress:1, gender:"female", rating:2, col:"blue" },
-    {id:3, name:"Christine Lobowski", progress:42, gender:"female", rating:0, col:"green" },
-    {id:4, name:"Brendon Philips", progress:100, gender:"male", rating:1, col:"orange" },
-    {id:5, name:"Margret Marmajuke", progress:16, gender:"female", rating:5, col:"yellow"},
+    {id:1, quarto:"1", preco:12, data:date, contato:"example@mail.com", col:"red",},
+    {id:2, quarto:"2", preco:123, data:date, contato:"example@mail.com", col:"blue" },
+    {id:3, quarto:"3", preco:42, data:date, contato:"example@mail.com", col:"green" },
+    {id:4, quarto:"4", preco:100, data:date, contato:"example@mail.com", col:"orange" },
+    {id:5, quarto:"5", preco:16, data:date, contato:"example@mail.com", col:"yellow"},
 ];
 
 //Build Tabulator
@@ -14,11 +17,12 @@ var table = new Tabulator("#example-table", {
     reactiveData:true, //turn on data reactivity
     data:tabledata, //load data into table
     columns:[
-        {title:"Name", field:"name", sorter:"string", width:200},
-        {title:"Progress", field:"progress", sorter:"number", formatter:"progress"},
-        {title:"Gender", field:"gender", sorter:"string"},
-        {title:"Rating", field:"rating", formatter:"star", hozAlign:"center", width:100},
-        {title:"Favourite Color", field:"col", sorter:"string"},
+        {title:"Quarto", field:"quarto", sorter:"string", width:200},
+        //{title:"Progress", field:"progress", sorter:"number", formatter:"progress"},
+        {title: "Preço", field: "preco"},
+        {title:"Data", field:"data", sorter:"string"},
+        //{title:"Estelas", field:"rating", formatter:"star", hozAlign:"center", width:100},
+        {title:"Contato do cliente", field:"contato", sorter:"string"},
     ],
 });
 
