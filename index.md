@@ -6,11 +6,11 @@ layout: post
 - [Certificados](./another-page.html).
 
 
-- [Link do projeto "Gerador de cores"](./docs/ColorFlipper/index.html).
+- [Link do projeto "Gerador de cores"](./docs/ColorFlipper).
 
-- [Link do projeto "Contador"](./docs/Counter/index.html).
+- [Link do projeto "Contador"](./docs/Counter).
 
-- [Link do projeto "Perfis" (em andamento)](./docs/Reviews/index.html).
+- [Link do projeto "Perfis" (em andamento)](./docs/Reviews).
 
 - [Link do projeto "Responsividade"](./docs/Responsividade).
 
