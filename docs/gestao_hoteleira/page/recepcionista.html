@@ -13,110 +13,46 @@
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
-<body>
-  <nav class="navbar-dark navbar absolute-top" id="header">
+<body class="body">
+  <div class="navbar-dark navbar absolute-top m-0 p-3" id="header">
     <div class="container-fluid navbar-nav">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <img src="docs/ico-list.png"></img>
-      </button>
-    </div>
-  </nav>
-  <div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent" style="background: #050F42;">
-      <h5 class="text-light text-center h4">Menu</h5>
-      <div class="p-4 d-flex justify-content-around" style="background: #050F42;">
-        <a href="../" class="text-warning">Voltar</a>
-      </div>
+      <a href="../" class="text-warning">Voltar</a>
     </div>
   </div>
-  <section class="min-vh-100 w-100 d-flex align-items-center justify-content-center py-6">
-    <div class="container row">
-      
-      <div class="row col-lg-12" id="padding-div-main">
-        <div class="mb-2 d-flex justify-content-center col-lg-12">
-          <button id="reactivity-add">Adicionar linha</button>
-          <button id="reactivity-delete">Remover linha</button>
-      </div>
-        <div class="mb-2 d-flex justify-content-center col-lg-12" id="div-main">
-
-          <div id="example-table"></div>
+  <!--Section to 100% height screen-->
+  <section class="max-vh-100 d-flex align-items-center justify-content-center py-6">
+    <!--Container-fluid to margin self-delimit-->
+    <div class="container-fluid">
+      <!--Grid Row-->
+      <div class="row">
+        <!--Grid  column 1-->
+        <div class="mt-2 mb-2 ms-lg-1 col-md-2 border rounded-3" style="background-color: white;">
+          <button class="p-1 m-md-1 btn btn-dark" id="reactivity-add">Adicionar linha</button>
+          <button class="p-1 m-md-1 btn btn-dark" id="reactivity-delete">Remover linha</button>
         </div>
-
+        <div class="mt-2 mb-2 d-flex justify-content-start col-8 col-lx-12">
+          <!--Table panel-->
+          <div id="example-table" class="form-control p-0"></div>
         </div>
+              <!--Grid  column 2-->
+      <div class="mt-2 mb-2 d-flex justify-content-center col-1 border rounded-3" style="width: 19.5em; background-color: white;">
 
       </div>
+      </div>
+
+    </div>
+    </div>
     </div>
   </section>
-  <footer class=" text-center text-lg-start text-light" id="footer">
-    <!-- Grid container -->
-    <div class="container h-100 p-4">
-      <!--Grid row-->
-      <div class="row">
-
-        <!--Grid column-->
-        <div class="col-lg-12 col-md-12 mb-6 mb-md-0 d-flex justify-content-center">
-
-          <ul class="list-unstyled mb-3">
-            <li>
-              <a href="#!" class="link-warning p-5">Link 1</a>
-              <a href="#!" class="link-warning p-5">Link 2</a>
-              <a href="#!" class="link-warning p-5">Link 3</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-        <div class="d-flex col-lg-12 col-md-6 mb-4 mb-md-4">
-          <h5 class="text-uppercase">Conteúdo&nbsp;</h5>
-          <h5 class="text-uppercase" style="color: #FDCD00;">rodapé</h5>
-        </div>
-        <p class="d-flex col-lg-12 col-md-12 mb-4 mb-md-4">
-          Em criação!
-        </p>
-      </div>
-      <!--Grid column-->
-
-
-      <!--Grid column-->
-
-      <!--Grid column
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase mb-0">Links</h5>
-    
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!" class="text-dark">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-dark">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-dark">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-dark">Link 4</a>
-              </li>
-            </ul>
-          </div>-->
-
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-    </div>
-    <!-- Grid container -->
-
+  <footer class=" text-center text-lg-start fixed-bottom text-light p-lg-4" id="footer">
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2021 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/"></a>
-    </div>
+
     <!-- Copyright -->
   </footer>
 
-  <script src="./assets/script.js"></script>
+  <script src="./recepcionista/assets/script.js" type="module"></script>
   <script src="./recepcionista/node_modules/tabulator-tables/dist/js/tabulator.min.js"></script>
-  <script src="recepcionista/assets/table.js"></script>
+  <script src="recepcionista/assets/table.js" type="module"></script>
   <!--Link dos componentes JS para o Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
     integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"

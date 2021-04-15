@@ -1,12 +1,12 @@
 [
-    {"id":1, "name":"Oli Bob", "location":"United Kingdom", "gender":"male", "rating":1, "col":"red"},
-    {"id":2, "name":"Mary May", "location":"Germany", "gender":"female", "rating":2, "col":"blue"},
-    {"id":3, "name":"Christine Lobowski", "location":"France", "gender":"female", "rating":0, "col":"green"},
-    {"id":4, "name":"Brendon Philips", "location":"USA", "gender":"male", "rating":1, "col":"orange"},
-    {"id":5, "name":"Margret Marmajuke", "location":"Canada", "gender":"female", "rating":5, "col":"yellow"},
-    {"id":6, "name":"Frank Harbours", "location":"Russia", "gender":"male", "rating":4, "col":"red"},
-    {"id":7, "name":"Jamie Newhart", "location":"India", "gender":"male", "rating":3, "col":"green"},
-    {"id":8, "name":"Gemma Jane", "location":"China", "gender":"female", "rating":0, "col":"red"},
-    {"id":9, "name":"Emily Sykes", "location":"South Korea", "gender":"female", "rating":1, "col":"maroon"},
-    {"id":10, "name":"James Newman", "location":"Japan", "gender":"male", "rating":5, "col":"red"}
+    {"id":1, "quarto":"Oli Bob", "preco":"United Kingdom", "data":"male", "contato":1},
+    {"id":2, "quarto":"Mary May", "preco":"Germany", "data":"female", "contato":2},
+    {"id":3, "quarto":"Christine Lobowski", "preco":"France", "data":"female", "contato":0},
+    {"id":4, "quarto":"Brendon Philips", "preco":"USA", "data":"male", "contato":1},
+    {"id":5, "quarto":"Margret Marmajuke", "preco":"Canada", "data":"female", "contato":5},
+    {"id":6, "quarto":"Frank Harbours", "preco":"Russia", "data":"male", "contato":4},
+    {"id":7, "quarto":"Jamie Newhart", "preco":"India", "data":"male", "contato":3},
+    {"id":8, "quarto":"Gemma Jane", "preco":"China", "data":"female", "contato":0},
+    {"id":9, "quarto":"Emily Sykes", "preco":"South Korea", "data":"female", "contato":1},
+    {"id":10, "quarto":"James Newman", "preco":"Japan", "data":"male", "contato":20}
 ]
