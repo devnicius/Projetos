@@ -1,5 +1,3 @@
-
-
 var date = new Date();
 
 
@@ -13,7 +11,7 @@ var tabledata = [
 //Build Tabulator
 const table = new Tabulator("#example-table", {
     
-    height:"90%",
+    height:"100%",
     placeholder:"No Data Available",
     layout:"fitColumns",
     resizableRows:false,
@@ -23,7 +21,7 @@ const table = new Tabulator("#example-table", {
     reactiveData:true, //turn on data reactivity
     ajaxURL:"recepcionista/assets/data.json",
     columns:[
-        {title:"Quarto", field:"quarto", sorter:"string", width:90},
+        {title:"Quarto", field:"quarto", width:90},
         //{title:"Progress", field:"progress", sorter:"number", formatter:"progress"},
         {title: "Preço", field: "preco", width:100},
         {title:"Data da reserva", field:"data", sorter:date, width:200, },

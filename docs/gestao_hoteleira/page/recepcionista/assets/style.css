@@ -5,10 +5,15 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.div {
+    overflow: auto;
+}
+
 
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
+    height: 10px;
   }
   
   /* Track */
